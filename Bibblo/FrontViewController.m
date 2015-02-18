@@ -7,7 +7,9 @@
 //
 
 #import "FrontViewController.h"
+
 #import "SWRevealViewController.h"
+
 
 @interface FrontViewController ()
 
@@ -17,25 +19,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-  
-     self.view.backgroundColor = [UIColor purpleColor];
     
-    self.title = NSLocalizedString(@"Front View", nil);
+    self.title = @"News";
     
-    SWRevealViewController *revealController = [self revealViewController];
-    
-    [revealController panGestureRecognizer];
-    [revealController tapGestureRecognizer];
-    
-    //Add an image to your project & set that image here.
-    UIBarButtonItem *revealButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"reveal-icon.png"]style:UIBarButtonItemStyleBordered target:revealController action:@selector(revealToggle:)];
-    self.navigationItem.leftBarButtonItem = revealButtonItem;
-    
-    //Add an image to your project & set that image here.
-    UIBarButtonItem *rightRevealButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"reveal-icon.png"]style:UIBarButtonItemStyleBordered target:revealController action:@selector(rightRevealToggle:)];
-    self.navigationItem.rightBarButtonItem = rightRevealButtonItem;
-    
-    
+    SWRevealViewController *revealViewController = self.revealViewController;
+    if ( revealViewController )
+    {
+        [self.sidebarButton setTarget: self.revealViewController];
+        [self.sidebarButton setAction: @selector( revealToggle: )];
+        [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    }
     
 }
 

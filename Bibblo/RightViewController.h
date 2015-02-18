@@ -10,8 +10,9 @@
 
 @interface RightViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *minlabel;
 
 
-@property (nonatomic, strong) IBOutlet UIScrollView   *scrollView;
+//@property (nonatomic, strong) IBOutlet UIScrollView   *scrollView;
 
 @end

@@ -8,14 +8,6 @@
 
 #import "AppDelegate.h"
 
-#import <RestKit/RestKit.h>
-
-//
-#import "SWRevealViewController.h"
-#import "FrontViewController.h"
-#import "RearViewController.h"
-#import "RightViewController.h"
-//
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -23,29 +15,9 @@
 
 @implementation AppDelegate
 
-//
-@synthesize window = _window;
-@synthesize viewController = _viewController;
-//
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window = window;
-    
-    FrontViewController *frontViewController = [[FrontViewController alloc] init];
-    RearViewController *rearViewController = [[RearViewController alloc] init];
-    RightViewController *rightViewController = rightViewController = [[RightViewController alloc] init];
-    
-    UINavigationController *frontNavigationController = [[UINavigationController alloc] initWithRootViewController:frontViewController];
-    UINavigationController *rearNavigationController = [[UINavigationController alloc] initWithRootViewController:rearViewController];
-    
-    SWRevealViewController *revealController = [[SWRevealViewController alloc] initWithRearViewController:rearNavigationController frontViewController:frontNavigationController];
-    
-    revealController.delegate = self;
-    revealController.rightViewController = rightViewController;
-    self.viewController = revealController;
-    self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
+    // Override point for customization after application launch.
     return YES;
 }
 
@@ -70,7 +42,5 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
-
 
 @end

@@ -7,7 +7,6 @@
 //
 
 #import "RightViewController.h"
-#import "RightBookScrollView.h"
 
 
 #import <RestKit/RestKit.h>
@@ -52,6 +51,8 @@
 - (void)setLayout
 {
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    
   //  self.view =
  
     

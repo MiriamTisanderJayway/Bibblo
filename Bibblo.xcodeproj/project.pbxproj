@@ -15,12 +15,10 @@
 		8453BCA71A939FA000830000 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8453BCA51A939FA000830000 /* LaunchScreen.xib */; };
 		8453BCB31A939FA000830000 /* BibbloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453BCB21A939FA000830000 /* BibbloTests.m */; };
 		84611A9E1A94C96600DC7206 /* 1018322-max-213x292.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84611A9D1A94C96600DC7206 /* 1018322-max-213x292.jpg */; };
-		84611AA41A94CDE900DC7206 /* RightBookScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84611AA31A94CDE900DC7206 /* RightBookScrollView.m */; };
+		8470829D1A94E7D400B90EB5 /* LeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8470829C1A94E7D400B90EB5 /* LeftTableViewController.m */; };
 		848FA5D71A94B70A00126643 /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848FA5D61A94B70A00126643 /* FrontViewController.m */; };
-		848FA5DA1A94B71A00126643 /* RearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848FA5D91A94B71A00126643 /* RearViewController.m */; };
 		848FA5DD1A94B72C00126643 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848FA5DC1A94B72C00126643 /* RightViewController.m */; };
 		848FA5E01A94B87100126643 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848FA5DF1A94B87100126643 /* SWRevealViewController.m */; };
-		848FA5E21A94BC8300126643 /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 848FA5E11A94BC8300126643 /* reveal-icon.png */; };
 		84C786CC1A93A2BD00C42AC4 /* TopEBooks.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C786CB1A93A2BD00C42AC4 /* TopEBooks.m */; };
 		84C786CF1A93A32500C42AC4 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C786CE1A93A32500C42AC4 /* Item.m */; };
 		84C786D21A93A36D00C42AC4 /* BookType.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C786D11A93A36D00C42AC4 /* BookType.m */; };
@@ -53,17 +51,14 @@
 		8453BCB11A939FA000830000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8453BCB21A939FA000830000 /* BibbloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BibbloTests.m; sourceTree = "<group>"; };
 		84611A9D1A94C96600DC7206 /* 1018322-max-213x292.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1018322-max-213x292.jpg"; sourceTree = "<group>"; };
-		84611AA21A94CDE900DC7206 /* RightBookScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightBookScrollView.h; sourceTree = "<group>"; };
-		84611AA31A94CDE900DC7206 /* RightBookScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightBookScrollView.m; sourceTree = "<group>"; };
+		8470829B1A94E7D400B90EB5 /* LeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewController.h; sourceTree = "<group>"; };
+		8470829C1A94E7D400B90EB5 /* LeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewController.m; sourceTree = "<group>"; };
 		848FA5D51A94B70A00126643 /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
 		848FA5D61A94B70A00126643 /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
-		848FA5D81A94B71A00126643 /* RearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RearViewController.h; sourceTree = "<group>"; };
-		848FA5D91A94B71A00126643 /* RearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RearViewController.m; sourceTree = "<group>"; };
 		848FA5DB1A94B72C00126643 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
 		848FA5DC1A94B72C00126643 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
 		848FA5DE1A94B87100126643 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		848FA5DF1A94B87100126643 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		848FA5E11A94BC8300126643 /* reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon.png"; sourceTree = "<group>"; };
 		84C786CA1A93A2BD00C42AC4 /* TopEBooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopEBooks.h; sourceTree = "<group>"; };
 		84C786CB1A93A2BD00C42AC4 /* TopEBooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopEBooks.m; sourceTree = "<group>"; };
 		84C786CD1A93A32500C42AC4 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
@@ -145,12 +140,9 @@
 				84C786CE1A93A32500C42AC4 /* Item.m */,
 				8453BCA51A939FA000830000 /* LaunchScreen.xib */,
 				8453BCA01A939FA000830000 /* Main.storyboard */,
-				84611AA21A94CDE900DC7206 /* RightBookScrollView.h */,
-				84611AA31A94CDE900DC7206 /* RightBookScrollView.m */,
-				848FA5D81A94B71A00126643 /* RearViewController.h */,
-				848FA5D91A94B71A00126643 /* RearViewController.m */,
-				848FA5E11A94BC8300126643 /* reveal-icon.png */,
 				848FA5DB1A94B72C00126643 /* RightViewController.h */,
+				8470829B1A94E7D400B90EB5 /* LeftTableViewController.h */,
+				8470829C1A94E7D400B90EB5 /* LeftTableViewController.m */,
 				848FA5DC1A94B72C00126643 /* RightViewController.m */,
 				8453BC931A939FA000830000 /* Supporting Files */,
 				848FA5DE1A94B87100126643 /* SWRevealViewController.h */,
@@ -282,7 +274,6 @@
 				8453BCA71A939FA000830000 /* LaunchScreen.xib in Resources */,
 				8453BCA41A939FA000830000 /* Images.xcassets in Resources */,
 				84611A9E1A94C96600DC7206 /* 1018322-max-213x292.jpg in Resources */,
-				848FA5E21A94BC8300126643 /* reveal-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,13 +326,12 @@
 			files = (
 				848FA5E01A94B87100126643 /* SWRevealViewController.m in Sources */,
 				84C786CF1A93A32500C42AC4 /* Item.m in Sources */,
+				8470829D1A94E7D400B90EB5 /* LeftTableViewController.m in Sources */,
 				8453BC991A939FA000830000 /* AppDelegate.m in Sources */,
-				84611AA41A94CDE900DC7206 /* RightBookScrollView.m in Sources */,
 				84C786D51A93A3A000C42AC4 /* Authors.m in Sources */,
 				848FA5D71A94B70A00126643 /* FrontViewController.m in Sources */,
 				848FA5DD1A94B72C00126643 /* RightViewController.m in Sources */,
 				84C786D81A93A45900C42AC4 /* BookCell.m in Sources */,
-				848FA5DA1A94B71A00126643 /* RearViewController.m in Sources */,
 				84C786D21A93A36D00C42AC4 /* BookType.m in Sources */,
 				8453BC961A939FA000830000 /* main.m in Sources */,
 				84C786CC1A93A2BD00C42AC4 /* TopEBooks.m in Sources */,

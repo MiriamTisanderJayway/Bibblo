@@ -1,5 +1,5 @@
 //
-//  RightBookScrollView.h
+//  LeftTableViewController.h
 //  Bibblo
 //
 //  Created by Jayway on 2015-02-18.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RightBookScrollView : UIScrollView
+@interface LeftTableViewController : UITableViewController
 
 @end
