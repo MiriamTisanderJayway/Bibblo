@@ -10,12 +10,17 @@
 		7502BDBFA527FF52F9687424 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4D32539B44152601D2727C /* libPods.a */; };
 		8453BC961A939FA000830000 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453BC951A939FA000830000 /* main.m */; };
 		8453BC991A939FA000830000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453BC981A939FA000830000 /* AppDelegate.m */; };
-		8453BC9C1A939FA000830000 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453BC9B1A939FA000830000 /* MasterViewController.m */; };
-		8453BC9F1A939FA000830000 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453BC9E1A939FA000830000 /* DetailViewController.m */; };
 		8453BCA21A939FA000830000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8453BCA01A939FA000830000 /* Main.storyboard */; };
 		8453BCA41A939FA000830000 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8453BCA31A939FA000830000 /* Images.xcassets */; };
 		8453BCA71A939FA000830000 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8453BCA51A939FA000830000 /* LaunchScreen.xib */; };
 		8453BCB31A939FA000830000 /* BibbloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453BCB21A939FA000830000 /* BibbloTests.m */; };
+		84611A9E1A94C96600DC7206 /* 1018322-max-213x292.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84611A9D1A94C96600DC7206 /* 1018322-max-213x292.jpg */; };
+		84611AA41A94CDE900DC7206 /* RightBookScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84611AA31A94CDE900DC7206 /* RightBookScrollView.m */; };
+		848FA5D71A94B70A00126643 /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848FA5D61A94B70A00126643 /* FrontViewController.m */; };
+		848FA5DA1A94B71A00126643 /* RearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848FA5D91A94B71A00126643 /* RearViewController.m */; };
+		848FA5DD1A94B72C00126643 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848FA5DC1A94B72C00126643 /* RightViewController.m */; };
+		848FA5E01A94B87100126643 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848FA5DF1A94B87100126643 /* SWRevealViewController.m */; };
+		848FA5E21A94BC8300126643 /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 848FA5E11A94BC8300126643 /* reveal-icon.png */; };
 		84C786CC1A93A2BD00C42AC4 /* TopEBooks.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C786CB1A93A2BD00C42AC4 /* TopEBooks.m */; };
 		84C786CF1A93A32500C42AC4 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C786CE1A93A32500C42AC4 /* Item.m */; };
 		84C786D21A93A36D00C42AC4 /* BookType.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C786D11A93A36D00C42AC4 /* BookType.m */; };
@@ -41,16 +46,24 @@
 		8453BC951A939FA000830000 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8453BC971A939FA000830000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8453BC981A939FA000830000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8453BC9A1A939FA000830000 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		8453BC9B1A939FA000830000 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		8453BC9D1A939FA000830000 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		8453BC9E1A939FA000830000 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		8453BCA11A939FA000830000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8453BCA31A939FA000830000 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8453BCA61A939FA000830000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8453BCAC1A939FA000830000 /* BibbloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibbloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8453BCB11A939FA000830000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8453BCB21A939FA000830000 /* BibbloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BibbloTests.m; sourceTree = "<group>"; };
+		84611A9D1A94C96600DC7206 /* 1018322-max-213x292.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1018322-max-213x292.jpg"; sourceTree = "<group>"; };
+		84611AA21A94CDE900DC7206 /* RightBookScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightBookScrollView.h; sourceTree = "<group>"; };
+		84611AA31A94CDE900DC7206 /* RightBookScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightBookScrollView.m; sourceTree = "<group>"; };
+		848FA5D51A94B70A00126643 /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
+		848FA5D61A94B70A00126643 /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
+		848FA5D81A94B71A00126643 /* RearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RearViewController.h; sourceTree = "<group>"; };
+		848FA5D91A94B71A00126643 /* RearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RearViewController.m; sourceTree = "<group>"; };
+		848FA5DB1A94B72C00126643 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		848FA5DC1A94B72C00126643 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		848FA5DE1A94B87100126643 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		848FA5DF1A94B87100126643 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		848FA5E11A94BC8300126643 /* reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon.png"; sourceTree = "<group>"; };
 		84C786CA1A93A2BD00C42AC4 /* TopEBooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopEBooks.h; sourceTree = "<group>"; };
 		84C786CB1A93A2BD00C42AC4 /* TopEBooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopEBooks.m; sourceTree = "<group>"; };
 		84C786CD1A93A32500C42AC4 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
@@ -102,6 +115,7 @@
 				AEA6942212A9141F0BE70A86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		8453BC911A939FA000830000 /* Products */ = {
 			isa = PBXGroup;
@@ -115,6 +129,7 @@
 		8453BC921A939FA000830000 /* Bibblo */ = {
 			isa = PBXGroup;
 			children = (
+				84611A9D1A94C96600DC7206 /* 1018322-max-213x292.jpg */,
 				8453BC971A939FA000830000 /* AppDelegate.h */,
 				8453BC981A939FA000830000 /* AppDelegate.m */,
 				84C786D31A93A3A000C42AC4 /* Authors.h */,
@@ -123,16 +138,23 @@
 				84C786D71A93A45900C42AC4 /* BookCell.m */,
 				84C786D01A93A36D00C42AC4 /* BookType.h */,
 				84C786D11A93A36D00C42AC4 /* BookType.m */,
-				8453BC9D1A939FA000830000 /* DetailViewController.h */,
-				8453BC9E1A939FA000830000 /* DetailViewController.m */,
+				848FA5D51A94B70A00126643 /* FrontViewController.h */,
+				848FA5D61A94B70A00126643 /* FrontViewController.m */,
 				8453BCA31A939FA000830000 /* Images.xcassets */,
 				84C786CD1A93A32500C42AC4 /* Item.h */,
 				84C786CE1A93A32500C42AC4 /* Item.m */,
 				8453BCA51A939FA000830000 /* LaunchScreen.xib */,
 				8453BCA01A939FA000830000 /* Main.storyboard */,
-				8453BC9A1A939FA000830000 /* MasterViewController.h */,
-				8453BC9B1A939FA000830000 /* MasterViewController.m */,
+				84611AA21A94CDE900DC7206 /* RightBookScrollView.h */,
+				84611AA31A94CDE900DC7206 /* RightBookScrollView.m */,
+				848FA5D81A94B71A00126643 /* RearViewController.h */,
+				848FA5D91A94B71A00126643 /* RearViewController.m */,
+				848FA5E11A94BC8300126643 /* reveal-icon.png */,
+				848FA5DB1A94B72C00126643 /* RightViewController.h */,
+				848FA5DC1A94B72C00126643 /* RightViewController.m */,
 				8453BC931A939FA000830000 /* Supporting Files */,
+				848FA5DE1A94B87100126643 /* SWRevealViewController.h */,
+				848FA5DF1A94B87100126643 /* SWRevealViewController.m */,
 				84C786CA1A93A2BD00C42AC4 /* TopEBooks.h */,
 				84C786CB1A93A2BD00C42AC4 /* TopEBooks.m */,
 			);
@@ -259,6 +281,8 @@
 				8453BCA21A939FA000830000 /* Main.storyboard in Resources */,
 				8453BCA71A939FA000830000 /* LaunchScreen.xib in Resources */,
 				8453BCA41A939FA000830000 /* Images.xcassets in Resources */,
+				84611A9E1A94C96600DC7206 /* 1018322-max-213x292.jpg in Resources */,
+				848FA5E21A94BC8300126643 /* reveal-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,15 +333,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848FA5E01A94B87100126643 /* SWRevealViewController.m in Sources */,
 				84C786CF1A93A32500C42AC4 /* Item.m in Sources */,
 				8453BC991A939FA000830000 /* AppDelegate.m in Sources */,
+				84611AA41A94CDE900DC7206 /* RightBookScrollView.m in Sources */,
 				84C786D51A93A3A000C42AC4 /* Authors.m in Sources */,
-				8453BC9C1A939FA000830000 /* MasterViewController.m in Sources */,
+				848FA5D71A94B70A00126643 /* FrontViewController.m in Sources */,
+				848FA5DD1A94B72C00126643 /* RightViewController.m in Sources */,
 				84C786D81A93A45900C42AC4 /* BookCell.m in Sources */,
+				848FA5DA1A94B71A00126643 /* RearViewController.m in Sources */,
 				84C786D21A93A36D00C42AC4 /* BookType.m in Sources */,
 				8453BC961A939FA000830000 /* main.m in Sources */,
 				84C786CC1A93A2BD00C42AC4 /* TopEBooks.m in Sources */,
-				8453BC9F1A939FA000830000 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
