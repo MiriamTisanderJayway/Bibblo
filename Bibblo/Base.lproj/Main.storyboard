@@ -105,7 +105,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="aqu-F1-rHU" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="PBY-eH-eDL"/>
+                                    <segue destination="aqu-F1-rHU" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="h4a-dE-rpa"/>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="comments" id="UGm-bG-nUA">
@@ -192,6 +192,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="kYm-ir-FcN" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="rfY-Hf-tfE"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tag" id="wzM-Wi-Mu3">
                                 <autoresizingMask key="autoresizingMask"/>
@@ -239,6 +242,62 @@
             </objects>
             <point key="canvasLocation" x="2635" y="-864"/>
         </scene>
+        <!--Front View Controller-->
+        <scene sceneID="0X3-8Y-83Y">
+            <objects>
+                <viewController id="vBn-kh-Sf8" customClass="FrontViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h0A-WP-bIY"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ugv-7X-adx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="E9k-pW-CCO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Test Böcker" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CpR-P0-bWe">
+                                <rect key="frame" x="85.5" y="121" width="150.5" height="53"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ugv-7X-adx" firstAttribute="top" secondItem="CpR-P0-bWe" secondAttribute="bottom" constant="426" id="0jp-jz-bTM"/>
+                            <constraint firstItem="CpR-P0-bWe" firstAttribute="top" secondItem="h0A-WP-bIY" secondAttribute="bottom" constant="57" id="53D-aN-FKS"/>
+                            <constraint firstItem="CpR-P0-bWe" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="E9k-pW-CCO" secondAttribute="leadingMargin" constant="66" id="gYF-KS-AEV"/>
+                            <constraint firstAttribute="centerX" secondItem="CpR-P0-bWe" secondAttribute="centerX" id="oaf-Ez-L3P"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="nFy-ts-AEZ">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="8yQ-ki-jOB"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="sidebarButton" destination="8yQ-ki-jOB" id="tR7-be-O8B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fpa-hn-a9R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3509" y="-8"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="geL-9E-tle">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kYm-ir-FcN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JcB-FX-vlU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vBn-kh-Sf8" kind="relationship" relationship="rootViewController" id="qfe-MW-NsO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F1O-60-WJ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2635" y="-20"/>
+        </scene>
     </scenes>
     <resources>
         <image name="bookmark" width="22" height="22"/>
@@ -251,7 +310,7 @@
         <image name="wishlist" width="22" height="22"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PBY-eH-eDL"/>
+        <segue reference="h4a-dE-rpa"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.48155590459999997" green="0.77114898990000003" blue="0.3607167986" alpha="1" colorSpace="calibratedRGB"/>
 </document>
